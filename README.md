@@ -10,6 +10,8 @@
 
 如果关于材料的内容有疑问， 欢迎[开issue](https://github.com/johnnychen94/Julia_and_its_applications/issues/new)提问.
 
+配置 Julia 请查看 [setup](setup.md)
+
 ## 时间及内容安排
 
 **时间：** 2021年10月10日 - 2021年12月12日， 每周日下午 14:00 - 16:00
@@ -18,9 +20,15 @@
 
 **内容大纲：**
 
-- (10.10) Julia 概述： 这是⼀⻔什么样的语⾔， 为什么要有这⻔语⾔， 以及当前的⽣态
-- (10.17， 10.24) Julia ⼊⻔： Julia 基本语法、 数据类型、 开发⼯具以及⼯作流
-- (10.24， 10.31) Julia 进阶： 编程⻛格、 性能优化以及如何写出⾼质量的 Julia 代码
+已讲内容：
+
+- （第一讲 10.10）： Julia 概述： 这是⼀⻔什么样的语⾔， 为什么要有这⻔语⾔， 以及当前的⽣态
+- （第二讲 10.17）： Julia 的基本数据类型以及函数的定义
+- （第三讲 10.24）： Julia 的类型系统和多重派发 （补充材料： 利用 functor 模式打造一个简单的深度学习方案）
+
+待定：
+
+- (10.31) Julia 的典型工作流、 模块、 矩阵、 广播
 - (11.7， 11.14) CPU 并⾏计算： CPU 硬件模型、 SIMD、 多线程与异步模型、 多进程
 - (11.21， 11.28) GPU 并⾏计算： GPU 硬件模型及 CUDA
 - (12.5) 自动微分： 深度学习的核心组件
@@ -28,6 +36,7 @@
 
 ## 其他
 
+- 原始仓库放在 [GitHub](https://github.com/johnnychen94/Julia_and_its_applications) 上面， 考虑到一些同学缺乏一些必要的技术手段， 在国内也镜像到 [Gitee](https://gitee.com/JohnnyChen94/julia_and_its_application)了。
 - 致宏关于这些内容自己整理了一系列的笔记，有兴趣的话可以查看 [Rex's blog](https://www.wzhecnu.xyz/tags/Julia/) （2021年）
 
 <!-- urls -->
